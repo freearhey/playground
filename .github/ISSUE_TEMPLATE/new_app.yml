@@ -13,7 +13,7 @@ body:
     id: source_code
     attributes:
       label: Source Code (optional)
-      description: A link to the application's source code, if available
+      description: A link to the source code of the application, if available
   - type: textarea
     id: description
     attributes:
