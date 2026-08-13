@@ -1,4 +1,5 @@
 name: "New link"
+description: "Submit a request to add a new link to the list"
 labels: []
 body:
   - type: input
