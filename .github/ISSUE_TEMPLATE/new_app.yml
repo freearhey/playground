@@ -1,0 +1,31 @@
+name: "New app"
+description: "Submit a request to add a new app to the list"
+labels: []
+body:
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Web
+        - Windows
+        - macOS
+      multiple: true
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Link
+    validations:
+      required: true
+  - type: input
+    id: source_code
+    attributes:
+      label: Source Code (optional)
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+    validations:
+      required: true
