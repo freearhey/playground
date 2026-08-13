@@ -2,27 +2,18 @@ name: "New app"
 description: "Submit a request to add a new app to the list"
 labels: []
 body:
-  - type: dropdown
-    id: platform
-    attributes:
-      label: Platform
-      options:
-        - Web
-        - Windows
-        - macOS
-      multiple: true
-    validations:
-      required: true
   - type: input
     id: link
     attributes:
       label: Link
+      description: For Android, iPhone, iPad, Apple Watch, Apple TV, Apple Vision Pro, Android TV, WebOS, Roku, Xbox and Google Chrome apps the link should lead to a reputable app store or source code
     validations:
       required: true
   - type: input
     id: source_code
     attributes:
       label: Source Code (optional)
+      description: A link to the application's source code, if available
   - type: textarea
     id: description
     attributes:
